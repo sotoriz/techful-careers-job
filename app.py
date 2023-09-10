@@ -6,22 +6,22 @@ JOBS = (
   {
     'id': 1,
     'title': 'Data Analyst',
-    'location': 'Bengaluru, India',
-    'salary': 'RS. 1,00,000'
+    'location': 'Lagos, Nigeria',
+    'salary': '#. 250,000'
   },
 
   {
     'id': 2,
     'title': 'Data Scientist',
-    'location': 'Delhi, India',
-    'salary': 'RS. 15,00,000'
+    'location': 'Rivers, Nigeria',
+    'salary': '#. 300,000'
   },
 
   {
     'id': 3,
     'title': 'Frontend Engineer',
     'location': 'Remote',
-    'salary': 'RS. 17,00,000'
+    'salary': '#. 500,000'
   },
 
   {
@@ -36,11 +36,16 @@ JOBS = (
 def hello_world():
   return render_template('home.html',
                         jobs=JOBS,
-                        company_name='Sotoris')
+                        company_name='Techful')
 
 @app.route("/jobs")
 def list_jobs():
   return jsonify(JOBS)
+
+@app.route("/about")
+def about():
+  return render_template('about.html')
+
 
 if  __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)

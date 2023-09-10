@@ -1,8 +1,17 @@
 language = "python3"
 run = "python app.py"
+entrypoint = "main.sh"
 
 [nix]
 channel = "stable-22_11"
 
 [deployment]
 run = ["sh", "-c", "python app.py"]
+
+[languages]
+
+[languages.bash]
+pattern = "**/{*.sh,*.bash}"
+
+[languages.bash.languageServer]
+start = "bash-language-server start"

@@ -16,16 +16,16 @@
   </head>
   <body>
     {% include 'nav.html' %}
-    <img class="img-fluid" id="banner" src="https://sotoris-careers-website.sotonyeorifama.repl.co/static/banner.jpg" >
+    <img class="img-fluid" id="banner" src="https://techful-careers-job.sotonyeorifama.repl.co/static/banner.jpg" >
     <div  class="container">
       <h1 class="text-center mt-2 mb-4"> 
-        {{company_name}} Tutorials
+        {{company_name}} Jobs
       </h1>   
-      <h2 class="text-center mt-2 mb-4" >about sotoris</h2>
+      <h2 class="text-center mt-2 mb-4" >about Us</h2>
       <div class="row" style="margin-bottom: 16px;">
         <div class="col-md-6">
       <p class="lead">
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Welcome to Techful careers job – Your Gateway to Career Success!<br>At Techful careers job, we believe in the power of connecting talent with opportunity. Our mission is to empower individuals like you to discover, pursue, and thrive in the careers of your dreams.<br>Why Choose Techful careers job?<br> Extensive Job Listings: We provide a vast and diverse range of job listings across various industries, ensuring you have access to the latest career opportunities.<br>User-Friendly Platform: Our website is designed with you in mind. It's easy to navigate, search for jobs, and submit applications, making your job hunt hassle-free.<br>Our Commitment<br>We are committed to creating a platform that fosters career growth and connects you with employers who value your skills and aspirations. Whether you're just starting your career or looking for the next big step, Techful careers job is here to support you on your journey.<br>Thank you for choosing Techful careers job as your trusted partner in achieving your career goals. Together, we'll make your career aspirations a reality.<br>Ready to take the next step in your career journey? Start exploring job opportunities now!
       </p>
         </div>
         <div class="d-none d-md-block col-md-6">
@@ -33,7 +33,7 @@
         </div>
       </div>
       
-      <h2 class="text-center mt-2 mb-4" >Job Openings</h2>
+      <h2 class="text-center mt-2 mb-4" >Job Listings</h2>
       {% for job in jobs %}
       {% include 'jobitem.html' %}
 
@@ -41,7 +41,7 @@
 
       <div class="text-center" >
       <a class="btn btn-primary btn-lg" href="mailto:hello@sotoris.tech?subject=Questions%20about%20Job%20Openings&body=my%20name%3A%20%3Cinput%20name%20here%3E%0D%0A%0D%0Amy%20Question%3A%20%3Center%20question%20here%3E%0D%0A%0D%0A">Contact Us</a>
-        <p class="mt-4" >Copyright 2022, Sotoris</P>
+        
       {% include 'footer.html' %}
       </div>
     </div>
