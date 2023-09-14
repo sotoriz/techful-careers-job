@@ -24,7 +24,7 @@
 
 2. Installation
 - No installation is required to use our Job website.Simply open your preferred web browser and navigate to Url: job.sotoris.tech.
-## Example
+``` Example
 1. Clone the repository:
 
 git clone https://github.com/sotoriz/techful-careers-job.git
@@ -34,7 +34,7 @@ cd techful-careers-job
 pip install flask
 
 pip install gunicorn
-
+```
 
 3. User Dashboard
 - once you access the Url you will be directed to the homepage.Here you can yrack your Job applications.
@@ -68,20 +68,19 @@ diagram
 diagram
 - Click "About Us" to view
 diagram
-## Example
+```Example
 - View the Job status for a specific Job location: Techful-careers-job --Job "SanFranscisco"--Apply
-
+```
 ## Technology Stack
 - Technologies
- * Html/Css
- * Javascript
- *
+ > Html/Css
+ > Javascript
 - Frameworks
- * Flask
- * gunicorn
+ > Flask
+ > gunicorn
 - Tools Used
- * Git
- * AWS hoisting
+ > Git
+ > AWS hoisting
 
 ## Contributing
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
