@@ -1,16 +1,16 @@
 # techful-careers-job
 
->   User-Friendly  website  designed with you in mind, easy to navigate, search for jobs, and submit applications from any platform
+>  Is  user-Friendly  website  designed with you in mind - easy to navigate, search for jobs, and submit applications from any platform
 
 ## Table of Contents
-- [GettingStarted](#Getting Started)
+- [Getting Started](#Getting Started)
 - [Features](#Features)
 - [Usage](#usage)
-- [TechnologyStack](#Technology Stack)
+- [Technology](#Technology)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgement](#Acknowledgement)
-- [ContactInformation](#Contact Information)
+- [Contact](#Contact)
 - [Demo](#Demo)
 - [Deployment](#Deployment)
 
@@ -73,7 +73,7 @@ diagram
 ```
 - View the Job status for a specific Job location: Techful-careers-job --Job "SanFranscisco"--Apply
 ```
-## Technology Stack
+## Technology
 - Technologies
  > Html/Css
 
