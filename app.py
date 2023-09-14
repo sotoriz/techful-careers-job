@@ -34,16 +34,15 @@ JOBS = (
 
 @app.route("/")
 def hello_world():
-  return render_template('home.html',
-                        jobs=JOBS,
-                        company_name='Techful')
+  return render_template('home.html')
 
 @app.route("/jobs")
 def list_jobs():
-  return jsonify(JOBS)
+  return render_template('job.html', jobs=JOBS,
+                        company_name='Techful')
 
 @app.route("/about")
-def about():
+def about_us():
   return render_template('about.html')
 
 

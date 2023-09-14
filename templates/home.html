@@ -17,11 +17,21 @@
   <body>
     {% include 'nav.html' %}
     <img class="img-fluid" id="banner" src="https://techful-careers-job.sotonyeorifama.repl.co/static/banner.jpg" >
-    <div  class="container">
+    
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Techful Careers Jobs</h1>
+        <p>Your Gateway to Finding the Perfect Career</p>
+        <a href="/jobs" class="cta-button">Browse Jobs<a/>
+      </div>
+    </section><br>
+        
+<!--    <div  class="container">
       <h1 class="text-center mt-2 mb-4"> 
         {{company_name}} Jobs
-      </h1>   
-      <h2 class="text-center mt-2 mb-4" >about Us</h2>
+      </h1> 
+      
+      <h2 class="text-center mt-2 mb-4" >About Us</h2>
       <div class="row" style="margin-bottom: 16px;">
         <div class="col-md-6">
       <p class="lead">
@@ -33,7 +43,7 @@
         </div>
       </div>
       
-      <h2 class="text-center mt-2 mb-4" >Job Listings</h2>
+      <h2 class="text-center mt-2 mb-4" >Job Listings</h2>-->
       {% for job in jobs %}
       {% include 'jobitem.html' %}
 
