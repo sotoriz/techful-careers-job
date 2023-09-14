@@ -3,14 +3,14 @@
 >   User-Friendly  website  designed with you in mind, easy to navigate, search for jobs, and submit applications from any platform
 
 ## Table of Contents
-- [Getting Started](#Getting Started)
+- [GettingStarted](#Getting Started)
 - [Features](#Features)
 - [Usage](#usage)
-- [Technology Stack](#Technology Stack)
+- [TechnologyStack](#Technology Stack)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgement](#Acknowledgement)
-- [Contact Information](#Contact Information)
+- [ContactInformation](#Contact Information)
 - [Demo](#Demo)
 - [Deployment](#Deployment)
 
@@ -23,8 +23,9 @@
 - Internet Connection
 
 2. Installation
-- No installation is required to use our Job website.Simply open your preferred web browser and navigate to Url: job.sotoris.tech.
-``` Example
+- No installation is required to use our Job website.Simply open your preferred web browser and navigate to Url: [Project wesite](job.sotoris.tech).
+## Example
+```
 1. Clone the repository:
 
 git clone https://github.com/sotoriz/techful-careers-job.git
@@ -37,7 +38,7 @@ pip install gunicorn
 ```
 
 3. User Dashboard
-- once you access the Url you will be directed to the homepage.Here you can yrack your Job applications.
+- once you access the Url you will be directed to the homepage.Here you can track your Job applications.
 
 4. Application process
 - To apply for a Job click the "apply now" button on the job listing page
@@ -68,18 +69,24 @@ diagram
 diagram
 - Click "About Us" to view
 diagram
-```Example
+## Example
+```
 - View the Job status for a specific Job location: Techful-careers-job --Job "SanFranscisco"--Apply
 ```
 ## Technology Stack
 - Technologies
  > Html/Css
+
  > Javascript
+
+ > Python
 - Frameworks
  > Flask
+
  > gunicorn
 - Tools Used
  > Git
+
  > AWS hoisting
 
 ## Contributing
@@ -95,7 +102,7 @@ diagram
 Appreciation to  third-party libraries, resources or individual who contributed to the project are:
 - Freecodecamp
 - Render.com
-- Github.com
+* Github.com
 
 ## Contact Information
 - Users can contact us or the project maintainers using the [Email](sotorisfx@gmail.com)
