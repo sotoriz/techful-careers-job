@@ -24,8 +24,9 @@
 
 2. Installation
 - No installation is required to use our Job website.Simply open your preferred web browser and navigate to Url: [Project wesite](job.sotoris.tech).
-Example
+
 ```
+Example
 1. Clone the repository:
 
 git clone https://github.com/sotoriz/techful-careers-job.git
@@ -38,6 +39,7 @@ pip install gunicorn
 ```
 Snippet
 > python app.py
+
 > pip install -r requirement.txt
 
 3. User Dashboard
@@ -57,7 +59,7 @@ Snippet
 - Now you know how to get started, start exploring our Job listings and take thw next step to your career journey.
 
 ## Features
-- Homepage is the landing page as you acess the Url Job site.
+- Homepage is the landing page as you acess the [Url](job.sotoris.tech) Job site.
 - Job displays the job listings of the website
 - About Us states the vision of the site
 
@@ -72,8 +74,9 @@ diagram
 diagram
 - Click "About Us" to view
 diagram
-Example
+
 ```
+Example
 - View the Job status for a specific Job location: Techful-careers-job --Job "SanFranscisco"--Apply
 ```
 ## Technology
@@ -105,7 +108,7 @@ Example
 Appreciation to  third-party libraries, resources or individual who contributed to the project are:
 - Freecodecamp
 - Render.com
-* Github.com
+- Github.com
 
 ## Contact Information
 - Users can contact us or the project maintainers using the [Email](sotorisfx@gmail.com)
