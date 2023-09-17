@@ -34,7 +34,8 @@ JOBS = (
 
 @app.route("/")
 def hello_world():
-  return render_template('home.html')
+  return render_template('home.html',
+                        company_name='Techful')
 
 @app.route("/jobs")
 def list_jobs():
@@ -43,8 +44,11 @@ def list_jobs():
 
 @app.route("/about")
 def about_us():
-  return render_template('about.html')
+  return render_template('about.html',
+                        company_name='Techful')
 
 
 if  __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)
+
+

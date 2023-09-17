@@ -16,15 +16,18 @@
   </head>
   <body>
     {% include 'nav.html' %}
+    <h1 class="text-center mt-2 mb-4"> 
+        {{company_name}} Jobs
+      </h1>
     <img class="img-fluid" id="banner" src="https://techful-careers-job.sotonyeorifama.repl.co/static/banner.jpg" >
     
     <section class="hero">
       <div class="container">
         <h1>Welcome to Techful Careers Jobs</h1>
         <p>Your Gateway to Finding the Perfect Career</p>
-        <a href="/jobs" class="cta-button">Browse Jobs<a/>
+        <a href="/jobs" class="cta-button">Browse Jobs</a>
       </div>
-    </section><br>
+    </section></br>
         
 <!--    <div  class="container">
       <h1 class="text-center mt-2 mb-4"> 
@@ -50,10 +53,8 @@
       {% endfor %}
 
       <div class="text-center" >
-      <a class="btn btn-primary btn-lg" href="mailto:hello@sotoris.tech?subject=Questions%20about%20Job%20Openings&body=my%20name%3A%20%3Cinput%20name%20here%3E%0D%0A%0D%0Amy%20Question%3A%20%3Center%20question%20here%3E%0D%0A%0D%0A">Contact Us</a>
-        
+      <a class="btn btn-primary btn-lg" href="mailto:hello@sotoris.tech?subject=Questions%20about%20Job%20Openings&body=my%20name%3A%20%3Cinput%20name%20here%3E%0D%0A%0D%0Amy%20Question%3A%20%3Center%20question%20here%3E%0D%0A%0D%0A">Contact Us</a>       
       {% include 'footer.html' %}
       </div>
-    </div>
   </body>
 </html>

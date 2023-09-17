@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Tutorial</title>
+    <title> Jobs</title>
     <style>
       #banner{
         height: 360px
@@ -16,18 +16,20 @@
   </head>
   <body>
     {% include 'nav.html' %}
+    <h1 class="text-center mt-2 mb-4"> 
+        {{company_name}} Jobs
+      </h1>
     <img class="img-fluid" id="banner" src="https://techful-careers-job.sotonyeorifama.repl.co/static/banner.jpg" >     
-      <h2 class="text-center mt-2 mb-4" >Job Listings</h2>
+      <h2 class="text-center mt-2 mb-4" >Open Positions</h2>
       {% for job in jobs %}
       {% include 'jobitem.html' %}
 
       {% endfor %}
 
       <div class="text-center" >
-      <a class="btn btn-primary btn-lg" href="mailto:hello@sotoris.tech?subject=Questions%20about%20Job%20Openings&body=my%20name%3A%20%3Cinput%20name%20here%3E%0D%0A%0D%0Amy%20Question%3A%20%3Center%20question%20here%3E%0D%0A%0D%0A">Contact Us</a>
+      <a class="btn btn-primary btn-lg" href="mailto:hello@sotoris.tech?subject=Questions%20about%20job%20Openings&body=my%20name%3A%20%3Cinput%20name%20here%3E%0D%0A%0D%0Amy%20Question%3A%20%3Center%20question%20here%3E%0D%0A%0D%0A">Contact Us</a>
         
       {% include 'footer.html' %}
       </div>
-    </div>
   </body>
 </html>
