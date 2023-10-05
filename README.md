@@ -1,6 +1,6 @@
-# techful-careers-job
+# techful-careers-job😊😊
 
->  Is  user-Friendly  website  designed with you in mind - easy to navigate, search for jobs, and submit applications from any platform
+>  Is  user-Friendly  website  designed with you in mind - easy to navigate, search for jobs, and submit applications from any platform🤔🤔
 
 ## Table of Contents
 - [Setup](#Setup)
@@ -12,6 +12,7 @@
 - [Acknowledgement](#Acknowledgement)
 - [Contact](#Contact)
 - [Demo](#Demo)
+- [Blogpost](#Blogpost)
 - [Deployment](#Deployment)
 
 
@@ -115,6 +116,9 @@ Appreciation to  third-party libraries, resources or individual who contributed 
 
 ## Demo
 - The link to the  live demo for the Job website is at [demo](enter link here)
+
+## BlogPost
+- The link to my blogpost on topic "Top 10 Tips for a Super Remote Job Interview" for the Job website is at [blog](https://medium.com/@sotorisfx/top-10-tips-for-a-super-remote-job-interview-36cb3f9e1578)
 
 ## Deployment
 To deploy the website to a production server
